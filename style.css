@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background-color: #3F396F ;
+  background-image: linear-gradient(315deg, #3F396F 0%, #6558AE 74%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+input {
+  background-color: #1c1c33;
+  border-radius: 10px;
+  color:white;
+  border:none;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+input::placeholder {
+  color:#DAD2E2;
+}
+
+input:focus {
+  outline: none;
+}
+
+.card {
+  background-color: #1C1C33;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(0,0,0,.3);
+  display: flex;
+  padding: 3rem;
+  min-width: 600px;
+  max-width: 800px;
+}
+
+
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  
+}
+
+.user-info {
+  margin-left: 2rem;
+  color:#ddd;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+  list-style-type: none;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.repo {
+  background-color: #6558AE;
+  display: inline-block;
+  border-radius: 5px;
+  color:#DAD2E2;
+  padding: 0.25rem .5rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  text-decoration: none;
+}
+
